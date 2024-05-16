@@ -1,6 +1,6 @@
 # PEOPLE API
 
-The people API project was created to simulate real-life API. This project was created as an Application Under Test for the API testing with Python project [here](https://github.com/victoriaajuwon/tau-api-testing-in-python/blob/main/README.md).
+The people API project was created to simulate real-life API. This project was created as an Application Under Test for the API testing with Python project [here](https://github.com/victoriaajuwon/tau-api-testing-in-python).
 
 ## Table of Contents
 - [SetUp](#Setup)
@@ -39,6 +39,13 @@ The people API project was created to simulate real-life API. This project was c
    ```sh
    python build_database.py
    ```
+8. You can run the project
+    ```sh
+    # To run the project, use the code below
+    python people-api.py
+9. View the ui on ```http://127.0.0.1:8000```
+10. View the swagger documentation on ```http://127.0.0.1:8000/api/ui```
+11. Test the API with Postman using the GET method on ```http://127.0.0.1:3000/api```
 ### NOTE
 
 - #### Follow tutorial
